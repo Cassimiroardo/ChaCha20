@@ -1,19 +1,18 @@
-# ChaCha20
-
-- Se para duas pessoas trocarem informações, é necessário uma chave...
-- Quantas chaves são necessárias para três pessoas trocarem informações??
-- Se para duas pessoas trocarem informações, é necessário uma chave...
-- E para três pessoas trocarem informações, são necessárias 3 chaves...
-- Quantas chaves são necessárias para 4 pessoas trocarem informações??
-
-``
-n(C)2 = n(n-1)/2
-``
+# Criptografia Simétrica
 
 - Os usuários devem ter cuidado em como armazenam e trocam chaves;
 - Normalmente o processo de encriptar e decriptar é rápido;
-- É o mais indicado para grande quantidade de dados;
-- Não é indicado para comunicação com várias pessoas, devido a necessidade de criação e gestão de muitas chaves;
+- É o mais indicado para grande quantidade de dados, porém não é indicado para comunicação com várias pessoas, devido a necessidade de criação e gestão de muitas chaves;
+
+# ChaCha20
+
+- É uma cifra de fluxo
+- Se para duas pessoas trocarem informações, é necessário uma chave... para três pessoas trocarem informações, são necessárias 3 chaves...
+- Quantas chaves são necessárias para 4 pessoas trocarem informações?? a formula abaixo responde, sendo ``n`` o número de pessoas
+
+``
+C = n(n-1)/2
+``
 
 # Cifra de fluxo (Stream):
 
